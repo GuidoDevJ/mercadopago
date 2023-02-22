@@ -43,7 +43,7 @@ async function postHandler(req: NextApiRequest, res: NextApiResponse, token) {
         success:"https://console.firebase.google.com/u/0/project/md-dwf-9-cap-4/firestore/data/~2Forder~2F2a1ngNPe5demQdjkQbRN?hl=es-419"
     },
     external_reference,
-    notification_url:"https://webhook.site/71d01930-6a5f-43b0-8e08-7d83f253d2c5"
+    notification_url:"https://mercadopago-pi.vercel.app/api/webhooks/mercadopago"
   });
 console.log(pref)
   res.json({
