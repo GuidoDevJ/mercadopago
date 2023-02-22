@@ -7,4 +7,4 @@ if (!admin.apps.length) {
       credential: admin.credential.cert(serviceAccount),
     });
   }
-  export const firestore = admin.firestore();
+  export const fireStore = admin.firestore();
